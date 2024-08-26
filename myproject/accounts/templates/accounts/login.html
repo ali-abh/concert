@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #username{
+        text-align: center;
+        margin: auto;
+    }
+    form{
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+   <!-- <div class="col-md-3"></div> 
+   <div class="col-md-6"> -->
+    <form action="" method="post" class="form">
+    {%csrf_token%}
+    <h3>اطلاعات کاربری خود را وارد کنید</h3>
+    <label class="lable-control">نام کاربری</label>
+    <input type="text" id="username" name="username" placeholder="نام کاربری خود را وارد کنید" class="form-control">
+    <label class="lable-control">رمز عبور</label>
+    <input type="password" id="password" name="username" placeholder="رمز عبور خود را وارد کنید" class="form-control">
+    <input type="submit" value="ورود" class="btn btn-success">
+    </form>
+   <!-- </div> 
+   <div class="col-md-3"></div> -->
+</body>
+</html>

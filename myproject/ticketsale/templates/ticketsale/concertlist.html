@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سامانه فروش بلیط کنسرت</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'ticketsale/css/style.css' %}">
+</head>
+<body>
+    <h1>لیست کنسرت ها</h1>
+    <ul>
+        {%for i in range 10%}
+        {%print(i)%}
+        {%end for%}
+    </ul>
+</body>
+</html>
